@@ -8,38 +8,46 @@
 	html,body{
 		width:100%;
 		height: 100%;
-		font-size: 62.5%;
+		font-size: 1em;
 		background-color:#68cdd5;
 		margin: 0 auto;
+		min-width: 650px;
+		font-family:PingFang SC Medium;
 	}
 	
 	.navbar{
 		width:100%;
-		padding-bottom: 8.8em;
+		padding-bottom: 5.5em;
 		background-color:#22292c;		
 	}
 	
-	.nav_l{
+	.nav_l{		
 		width:32%;
 	/*	background-color: yellowgreen;*/
 		float: left;
-		padding-top: 1.5em;
-		padding-bottom: 1.3em;
+		padding-top: 1.68em;
+		padding-bottom: 1.68em;
 		color:rgba(255,255,255,1.00);
-		font-size: 2.8em;
+		
 	}
 	.icon_arrow{
 		float:left;
-		padding-right: 0.4em;
-		padding-top: 0.23em;
-		padding-left: 1em;
+		height: 1.5em;
+		padding-right: 0.8em;
+		padding-top: 0.35em;
+		padding-left: 1.5em;
+	}
+	.text_back{
+		font-size: 1.5em;
+		float:left;
+		padding-top: 
 	}
 	.nav_c{
 		width:36%;
 		float: left;
-		font-size: 3em;
-		padding-top: 1.39em;
-		padding-bottom: 1.39em;
+		font-size: 1.875em;
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
 		text-align: center;
 		color:rgba(255,255,255,1.00);
 	}
@@ -47,55 +55,65 @@
 	.nav_r{
 		width:32%;
 		float: right;
-		padding-top:4em;
-		padding-bottom: 4em;
+		padding-top:2.55em;
+		padding-bottom:2.55em;
 	}
 	.icon_pot{
+		width: 2.25em;
 		float:right;
-		padding-right: 2em;
+		padding-right: 1.5em;
+		
 	}
 	.back{
 		width:100%;
-		height: 8.8em;
+		height: 5.5em;
 		text-align: left;
 	}	
 	.icon_back{
+		height: 3.6875em;
 		float: left;
 		padding-left: 1.5em;
-		padding-top: 2.7em;
-		padding-bottom: 2.7em;
+		padding-top:0.9em;
+		padding-bottom: 0.9em;
 	}
 	
-
 	.logo{
 		text-align: center;
-		height:12.6em;
+		height:8.5em;
 	}
 	.icon{
-		margin-top: 4.3em;
-		margin-bottom: 4.3em;
+		height: 4.375em;
+		padding-bottom: 2.06em;
+		padding-top: 2.06em;
 	}
 	
 	.p_text{
-		font-size: 3em;
-		padding-left: 9%;
-		padding-right: 9%;
+		font-size: 1.875em;
+		letter-spacing: 0.8px;
+		padding-left: 10%;
+		padding-right: 10%;
 		color: rgba(255,255,255,1.00);
 	}
 	
 	.left_div{
-		width:15%;
-		padding-left: 10em;
+		width:25%;
+		padding-left: 8em;
 		float: left;
+	}
+	.left_div_img{
+		height: 5.25em;
 	}
 	.left_div_content{
 		text-align: center;
 	}
 	
 	.right_div{
-		width:15%;
-		padding-right: 10em;
+		width:25%;
+		padding-right: 8em;
 		float: right;
+	}
+	.right_div_img{
+		height: 5.25em;
 	}
 	.right_div_content{
 		text-align: center;
@@ -109,8 +127,9 @@
 	
 	.p_color{
 		color:rgba(255,255,255,1.00);
-		font-size: 2.4em;
+		font-size: 1.5em;
 	}
+	
 </style>
 </head>
 
@@ -118,7 +137,7 @@
 <div class="navbar">
 	<div class="nav_l">
 		<img class="icon_arrow" src="images/icon_arrow.png"/>
-		<div>返回</div>
+		<div class="text_back">返回</div>
 	</div>
 	<div class="nav_c">魔镜</div>
 	<div class="nav_r">
@@ -140,14 +159,14 @@
 <div class="bottom_div">
 	<div class="left_div">
 		<div class="left_div_content">
-		<img src="images/icon_blue.png"/>
+		<img class="left_div_img" src="images/icon_blue.png"/>
 		<p class="p_color">TFJIQing</p>
 		</div>
 	</div>
 
 	<div class="right_div">
 		<div class="right_div_content">
-		<img src="images/icon_green.png"/>
+		<img class="right_div_img" src="images/icon_green.png"/>
 		<p class="p_color">BJPTTeng</p>
 		</div>
 	</div>
